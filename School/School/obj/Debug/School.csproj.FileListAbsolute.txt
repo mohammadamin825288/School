@@ -1,0 +1,16 @@
+D:\School\School\School\bin\Debug\School.exe.config
+D:\School\School\School\bin\Debug\School.exe
+D:\School\School\School\bin\Debug\School.pdb
+D:\School\School\School\obj\Debug\School.csproj.AssemblyReference.cache
+D:\School\School\School\obj\Debug\School.frmStudent.resources
+D:\School\School\School\obj\Debug\School.Properties.Resources.resources
+D:\School\School\School\obj\Debug\School.csproj.GenerateResource.cache
+D:\School\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
+D:\School\School\School\obj\Debug\School.exe
+D:\School\School\School\obj\Debug\School.pdb
+D:\School\School\School\obj\Debug\School.frmTeachers.resources
+D:\School\School\School\obj\Debug\School.frmMain.resources
+D:\School\School\School\obj\Debug\School.frmSubject.resources
+D:\School\School\School\obj\Debug\School.frmTeacherSearch.resources
+D:\School\School\School\obj\Debug\School.frmSearchStudent.resources
+D:\School\School\School\obj\Debug\School.frmTeacherEdit.resources

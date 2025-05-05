@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\School\\School\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmteachersearch.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmteachersearch.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmteacheredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmteacheredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmteachersearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmteachersearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmteachersearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmteachersearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\frmsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|d:\\school\\school\\school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmTeacherSearch.Designer.cs",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmTeacherSearch.Designer.cs",
+              "RelativeDocumentMoniker": "School\\frmTeacherSearch.Designer.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmTeacherSearch.Designer.cs",
+              "RelativeToolTip": "School\\frmTeacherSearch.Designer.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAswGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:48:51.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmStudent.cs [Design]",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmStudent.cs",
+              "RelativeDocumentMoniker": "School\\frmStudent.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmStudent.cs [Design]",
+              "RelativeToolTip": "School\\frmStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:48:28.141Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmStudent.cs",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmStudent.cs",
+              "RelativeDocumentMoniker": "School\\frmStudent.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmStudent.cs",
+              "RelativeToolTip": "School\\frmStudent.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwEYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:56:50.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmTeacherEdit.cs [Design]",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmTeacherEdit.cs",
+              "RelativeDocumentMoniker": "School\\frmTeacherEdit.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmTeacherEdit.cs [Design]",
+              "RelativeToolTip": "School\\frmTeacherEdit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T14:26:24.132Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmTeacherSearch.cs [Design]",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmTeacherSearch.cs",
+              "RelativeDocumentMoniker": "School\\frmTeacherSearch.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmTeacherSearch.cs [Design]",
+              "RelativeToolTip": "School\\frmTeacherSearch.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:49:44.156Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmTeacherSearch.cs",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmTeacherSearch.cs",
+              "RelativeDocumentMoniker": "School\\frmTeacherSearch.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmTeacherSearch.cs",
+              "RelativeToolTip": "School\\frmTeacherSearch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:06:07.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmMain.cs",
+              "RelativeDocumentMoniker": "School\\frmMain.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmMain.cs",
+              "RelativeToolTip": "School\\frmMain.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAIA5wC0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T11:56:03.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmMain.cs",
+              "RelativeDocumentMoniker": "School\\frmMain.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmMain.cs [Design]",
+              "RelativeToolTip": "School\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T11:54:07.971Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmSubject.cs [Design]",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmSubject.cs",
+              "RelativeDocumentMoniker": "School\\frmSubject.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmSubject.cs [Design]",
+              "RelativeToolTip": "School\\frmSubject.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:34:05.496Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmSubject.cs",
+              "DocumentMoniker": "D:\\School\\School\\School\\frmSubject.cs",
+              "RelativeDocumentMoniker": "School\\frmSubject.cs",
+              "ToolTip": "D:\\School\\School\\School\\frmSubject.cs",
+              "RelativeToolTip": "School\\frmSubject.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAADwvzQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:43:00.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\School\\School\\School\\Program.cs",
+              "RelativeDocumentMoniker": "School\\Program.cs",
+              "ToolTip": "D:\\School\\School\\School\\Program.cs",
+              "RelativeToolTip": "School\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T11:57:12.219Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

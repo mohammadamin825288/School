@@ -1,0 +1,49 @@
+﻿using System;
+using System.Windows.Forms;
+
+namespace School
+{
+    public partial class frmMain : Form
+    {
+        public frmMain()
+        {
+            InitializeComponent();
+        }
+
+        private void ثبتدانشآموزToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmStudent mystudent = new frmStudent();
+            mystudent.ShowDialog();
+        }
+
+        private void ثبتاطلاعاتمعلمToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTeachers myfrmteachers = new frmTeachers();
+            myfrmteachers.ShowDialog();
+        }
+
+        private void ثبتاطلاعتدرسToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSubject mysubjects = new frmSubject();
+            mysubjects.ShowDialog();
+        }
+
+        private void اطلاعاتمعلمToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmTeacherSearch myfrmsearchTeacher = new frmTeacherSearch();
+            myfrmsearchTeacher.ShowDialog();
+        }
+
+        private void اطلاعاتدانشآموزToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSearchStudent mystudent = new frmSearchStudent();
+            mystudent.ShowDialog();
+        }
+
+        private void ویرایشاطلاعاتمعلمToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTeacherEdit myTeacherEdit = new frmTeacherEdit();
+            myTeacherEdit.ShowDialog();
+        }
+    }
+}
