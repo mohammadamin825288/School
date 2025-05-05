@@ -45,5 +45,17 @@ namespace School
             frmTeacherEdit myTeacherEdit = new frmTeacherEdit();
             myTeacherEdit.ShowDialog();
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            toolStripStatusLabel1.Text = ClassName.username;
+            toolStripStatusLabel2.Text = DateTime.Now.ToString();
+        }
     }
 }
