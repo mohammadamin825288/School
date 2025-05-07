@@ -64,5 +64,12 @@ namespace School
             myuser.ShowDialog();
 
         }
+
+        private void ویرایشاطلاعاتدانشآموزToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmStudentEdit myfrmStudentEdit = new frmStudentEdit();
+            myfrmStudentEdit.ShowDialog();
+
+        }
     }
 }

@@ -32,3 +32,4 @@ E:\مدرسه\School\School\School\obj\Debug\School.csproj.CoreCompileInputs.cac
 E:\مدرسه\School\School\School\obj\Debug\School.exe
 E:\مدرسه\School\School\School\obj\Debug\School.pdb
 E:\مدرسه\School\School\School\obj\Debug\School.frmUser.resources
+E:\مدرسه\School\School\School\obj\Debug\School.frmStudentEdit.resources

@@ -38,6 +38,7 @@
             this.ثبتدانشآموزToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ثبتاطلاعاتمعلمToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ثبتاطلاعتدرسToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ثبتاطلاعاتکاربرToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ویرایشToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ویرایشاطلاعاتمعلمToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ویرایشاطلاعاتدانشآموزToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,7 +47,6 @@
             this.اطلاعاتمعلمToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.اطلاعاتدانشآموزToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnLogout = new System.Windows.Forms.Button();
-            this.ثبتاطلاعاتکاربرToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -134,6 +134,13 @@
             this.ثبتاطلاعتدرسToolStripMenuItem.Text = "ثبت اطلاعت درس";
             this.ثبتاطلاعتدرسToolStripMenuItem.Click += new System.EventHandler(this.ثبتاطلاعتدرسToolStripMenuItem_Click);
             // 
+            // ثبتاطلاعاتکاربرToolStripMenuItem
+            // 
+            this.ثبتاطلاعاتکاربرToolStripMenuItem.Name = "ثبتاطلاعاتکاربرToolStripMenuItem";
+            this.ثبتاطلاعاتکاربرToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
+            this.ثبتاطلاعاتکاربرToolStripMenuItem.Text = "ثبت اطلاعات کاربر";
+            this.ثبتاطلاعاتکاربرToolStripMenuItem.Click += new System.EventHandler(this.ثبتاطلاعاتکاربرToolStripMenuItem_Click);
+            // 
             // ویرایشToolStripMenuItem
             // 
             this.ویرایشToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -156,6 +163,7 @@
             this.ویرایشاطلاعاتدانشآموزToolStripMenuItem.Name = "ویرایشاطلاعاتدانشآموزToolStripMenuItem";
             this.ویرایشاطلاعاتدانشآموزToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
             this.ویرایشاطلاعاتدانشآموزToolStripMenuItem.Text = "ویرایش اطلاعات دانش آموز";
+            this.ویرایشاطلاعاتدانشآموزToolStripMenuItem.Click += new System.EventHandler(this.ویرایشاطلاعاتدانشآموزToolStripMenuItem_Click);
             // 
             // ویرایشاطلاعاتToolStripMenuItem
             // 
@@ -200,13 +208,6 @@
             this.btnLogout.UseCompatibleTextRendering = true;
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // ثبتاطلاعاتکاربرToolStripMenuItem
-            // 
-            this.ثبتاطلاعاتکاربرToolStripMenuItem.Name = "ثبتاطلاعاتکاربرToolStripMenuItem";
-            this.ثبتاطلاعاتکاربرToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
-            this.ثبتاطلاعاتکاربرToolStripMenuItem.Text = "ثبت اطلاعات کاربر";
-            this.ثبتاطلاعاتکاربرToolStripMenuItem.Click += new System.EventHandler(this.ثبتاطلاعاتکاربرToolStripMenuItem_Click);
             // 
             // frmMain
             // 
