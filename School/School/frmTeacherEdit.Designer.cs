@@ -296,6 +296,7 @@
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(181, 22);
             this.txtPhone.TabIndex = 5;
+            this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhone_KeyPress);
             // 
             // txtAddress
             // 
@@ -304,6 +305,7 @@
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(181, 73);
             this.txtAddress.TabIndex = 4;
+            this.txtAddress.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAddress_KeyPress);
             // 
             // txtSubjectCode
             // 
@@ -311,6 +313,7 @@
             this.txtSubjectCode.Name = "txtSubjectCode";
             this.txtSubjectCode.Size = new System.Drawing.Size(181, 22);
             this.txtSubjectCode.TabIndex = 3;
+            this.txtSubjectCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSubjectCode_KeyPress);
             // 
             // txtTeacherLname
             // 
@@ -318,6 +321,7 @@
             this.txtTeacherLname.Name = "txtTeacherLname";
             this.txtTeacherLname.Size = new System.Drawing.Size(181, 22);
             this.txtTeacherLname.TabIndex = 2;
+            this.txtTeacherLname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTeacherLname_KeyPress);
             // 
             // txtTeacherCode
             // 
@@ -327,6 +331,7 @@
             this.txtTeacherCode.Size = new System.Drawing.Size(181, 22);
             this.txtTeacherCode.TabIndex = 0;
             this.txtTeacherCode.TextChanged += new System.EventHandler(this.txtTeacherCode_TextChanged);
+            this.txtTeacherCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTeacherCode_KeyPress);
             // 
             // txtTeacherName
             // 
@@ -334,6 +339,7 @@
             this.txtTeacherName.Name = "txtTeacherName";
             this.txtTeacherName.Size = new System.Drawing.Size(181, 22);
             this.txtTeacherName.TabIndex = 1;
+            this.txtTeacherName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTeacherName_KeyPress);
             // 
             // frmTeacherEdit
             // 

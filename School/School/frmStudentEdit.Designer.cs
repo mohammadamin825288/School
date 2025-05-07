@@ -168,6 +168,7 @@
             this.txtStudentAddress.Name = "txtStudentAddress";
             this.txtStudentAddress.Size = new System.Drawing.Size(220, 66);
             this.txtStudentAddress.TabIndex = 0;
+            this.txtStudentAddress.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStudentAddress_KeyPress);
             // 
             // txtStudentFname
             // 
@@ -175,6 +176,7 @@
             this.txtStudentFname.Name = "txtStudentFname";
             this.txtStudentFname.Size = new System.Drawing.Size(230, 22);
             this.txtStudentFname.TabIndex = 0;
+            this.txtStudentFname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStudentFname_KeyPress);
             // 
             // txtStudentPhone
             // 
@@ -182,6 +184,7 @@
             this.txtStudentPhone.Name = "txtStudentPhone";
             this.txtStudentPhone.Size = new System.Drawing.Size(220, 22);
             this.txtStudentPhone.TabIndex = 0;
+            this.txtStudentPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStudentPhone_KeyPress);
             // 
             // txtStudentClassID
             // 
@@ -189,6 +192,7 @@
             this.txtStudentClassID.Name = "txtStudentClassID";
             this.txtStudentClassID.Size = new System.Drawing.Size(230, 22);
             this.txtStudentClassID.TabIndex = 0;
+            this.txtStudentClassID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStudentClassID_KeyPress);
             // 
             // txtStudentLname
             // 
@@ -196,6 +200,7 @@
             this.txtStudentLname.Name = "txtStudentLname";
             this.txtStudentLname.Size = new System.Drawing.Size(230, 22);
             this.txtStudentLname.TabIndex = 0;
+            this.txtStudentLname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStudentLname_KeyPress);
             // 
             // txtStudentID
             // 
@@ -205,6 +210,7 @@
             this.txtStudentID.Size = new System.Drawing.Size(176, 22);
             this.txtStudentID.TabIndex = 0;
             this.txtStudentID.TextChanged += new System.EventHandler(this.txtStudentID_TextChanged);
+            this.txtStudentID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStudentID_KeyPress);
             // 
             // groupBox2
             // 

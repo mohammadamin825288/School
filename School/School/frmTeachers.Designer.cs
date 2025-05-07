@@ -97,6 +97,7 @@
             this.txtFname.Name = "txtFname";
             this.txtFname.Size = new System.Drawing.Size(196, 26);
             this.txtFname.TabIndex = 1;
+            this.txtFname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFname_KeyPress);
             // 
             // txtLname
             // 
@@ -104,6 +105,7 @@
             this.txtLname.Name = "txtLname";
             this.txtLname.Size = new System.Drawing.Size(196, 26);
             this.txtLname.TabIndex = 2;
+            this.txtLname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLname_KeyPress);
             // 
             // txtSubject
             // 
@@ -111,6 +113,7 @@
             this.txtSubject.Name = "txtSubject";
             this.txtSubject.Size = new System.Drawing.Size(196, 26);
             this.txtSubject.TabIndex = 3;
+            this.txtSubject.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSubject_KeyPress);
             // 
             // txtAddress
             // 
@@ -125,6 +128,7 @@
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(196, 26);
             this.txtPhone.TabIndex = 5;
+            this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhone_KeyPress);
             // 
             // dataGridView1
             // 

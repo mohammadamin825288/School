@@ -33,9 +33,9 @@
             this.txtSubjectName = new System.Windows.Forms.TextBox();
             this.txtTeacherID = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -45,7 +45,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(848, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 16);
+            this.label1.Size = new System.Drawing.Size(47, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "نام درس";
             // 
@@ -54,7 +54,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(848, 97);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 16);
+            this.label2.Size = new System.Drawing.Size(41, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "کد معلم";
             // 
@@ -64,6 +64,8 @@
             this.txtSubjectName.Name = "txtSubjectName";
             this.txtSubjectName.Size = new System.Drawing.Size(154, 22);
             this.txtSubjectName.TabIndex = 1;
+            this.txtSubjectName.TextChanged += new System.EventHandler(this.txtSubjectName_TextChanged);
+            this.txtSubjectName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSubjectName_KeyPress);
             // 
             // txtTeacherID
             // 
@@ -71,6 +73,7 @@
             this.txtTeacherID.Name = "txtTeacherID";
             this.txtTeacherID.Size = new System.Drawing.Size(154, 22);
             this.txtTeacherID.TabIndex = 2;
+            this.txtTeacherID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTeacherID_KeyPress);
             // 
             // groupBox1
             // 
@@ -88,15 +91,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ثبت اطلاعات درس";
             // 
-            // dataGridView1
+            // btnSubmit
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 30);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(654, 377);
-            this.dataGridView1.TabIndex = 5;
+            this.btnSubmit.Location = new System.Drawing.Point(805, 142);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(93, 47);
+            this.btnSubmit.TabIndex = 4;
+            this.btnSubmit.Text = "ثبت";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnCancel
             // 
@@ -108,15 +111,15 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnSubmit
+            // dataGridView1
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(805, 142);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(93, 47);
-            this.btnSubmit.TabIndex = 4;
-            this.btnSubmit.Text = "ثبت";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(6, 30);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(654, 377);
+            this.dataGridView1.TabIndex = 5;
             // 
             // frmSubject
             // 

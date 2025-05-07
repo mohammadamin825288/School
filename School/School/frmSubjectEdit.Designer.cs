@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
+            this.txtTeacherID = new System.Windows.Forms.TextBox();
+            this.txtSubjectName = new System.Windows.Forms.TextBox();
+            this.txtSubjectID = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtSubjectID = new System.Windows.Forms.TextBox();
-            this.txtSubjectName = new System.Windows.Forms.TextBox();
-            this.txtTeacherID = new System.Windows.Forms.TextBox();
-            this.btnSubmit = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -61,6 +61,80 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ویرایش درس";
             // 
+            // btnDelete
+            // 
+            this.btnDelete.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnDelete.Location = new System.Drawing.Point(189, 115);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(107, 32);
+            this.btnDelete.TabIndex = 2;
+            this.btnDelete.Text = "حذف";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Location = new System.Drawing.Point(357, 115);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(107, 32);
+            this.btnSubmit.TabIndex = 3;
+            this.btnSubmit.Text = "ویرایش";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
+            // txtTeacherID
+            // 
+            this.txtTeacherID.Location = new System.Drawing.Point(201, 44);
+            this.txtTeacherID.Name = "txtTeacherID";
+            this.txtTeacherID.Size = new System.Drawing.Size(130, 22);
+            this.txtTeacherID.TabIndex = 2;
+            this.txtTeacherID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTeacherID_KeyPress);
+            // 
+            // txtSubjectName
+            // 
+            this.txtSubjectName.Location = new System.Drawing.Point(576, 110);
+            this.txtSubjectName.Name = "txtSubjectName";
+            this.txtSubjectName.Size = new System.Drawing.Size(130, 22);
+            this.txtSubjectName.TabIndex = 1;
+            this.txtSubjectName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSubjectName_KeyPress);
+            // 
+            // txtSubjectID
+            // 
+            this.txtSubjectID.BackColor = System.Drawing.SystemColors.Info;
+            this.txtSubjectID.Location = new System.Drawing.Point(576, 44);
+            this.txtSubjectID.Name = "txtSubjectID";
+            this.txtSubjectID.Size = new System.Drawing.Size(130, 22);
+            this.txtSubjectID.TabIndex = 0;
+            this.txtSubjectID.TextChanged += new System.EventHandler(this.txtSubjectID_TextChanged);
+            this.txtSubjectID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSubjectID_KeyPress);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(357, 49);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 17);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "کد معلم";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(732, 115);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(47, 17);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "نام درس";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(732, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(47, 17);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "کد درس";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dataGridView1);
@@ -80,76 +154,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(838, 283);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(732, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "کد درس";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(732, 115);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 17);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "نام درس";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(357, 49);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 17);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "کد معلم";
-            // 
-            // txtSubjectID
-            // 
-            this.txtSubjectID.BackColor = System.Drawing.SystemColors.Info;
-            this.txtSubjectID.Location = new System.Drawing.Point(576, 44);
-            this.txtSubjectID.Name = "txtSubjectID";
-            this.txtSubjectID.Size = new System.Drawing.Size(130, 22);
-            this.txtSubjectID.TabIndex = 0;
-            this.txtSubjectID.TextChanged += new System.EventHandler(this.txtSubjectID_TextChanged);
-            // 
-            // txtSubjectName
-            // 
-            this.txtSubjectName.Location = new System.Drawing.Point(576, 110);
-            this.txtSubjectName.Name = "txtSubjectName";
-            this.txtSubjectName.Size = new System.Drawing.Size(130, 22);
-            this.txtSubjectName.TabIndex = 1;
-            // 
-            // txtTeacherID
-            // 
-            this.txtTeacherID.Location = new System.Drawing.Point(201, 44);
-            this.txtTeacherID.Name = "txtTeacherID";
-            this.txtTeacherID.Size = new System.Drawing.Size(130, 22);
-            this.txtTeacherID.TabIndex = 2;
-            // 
-            // btnSubmit
-            // 
-            this.btnSubmit.Location = new System.Drawing.Point(357, 115);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(107, 32);
-            this.btnSubmit.TabIndex = 3;
-            this.btnSubmit.Text = "ویرایش";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Location = new System.Drawing.Point(189, 115);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(107, 32);
-            this.btnDelete.TabIndex = 2;
-            this.btnDelete.Text = "حذف";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // frmSubjectEdit
             // 

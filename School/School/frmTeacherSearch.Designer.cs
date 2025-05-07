@@ -57,6 +57,7 @@
             this.txtTeacherName.Size = new System.Drawing.Size(304, 22);
             this.txtTeacherName.TabIndex = 0;
             this.txtTeacherName.TextChanged += new System.EventHandler(this.txtTeacherName_TextChanged);
+            this.txtTeacherName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTeacherName_KeyPress);
             // 
             // groupBox2
             // 
@@ -75,6 +76,7 @@
             this.txtTeacherCode.Size = new System.Drawing.Size(304, 22);
             this.txtTeacherCode.TabIndex = 0;
             this.txtTeacherCode.TextChanged += new System.EventHandler(this.txtTeacherCode_TextChanged);
+            this.txtTeacherCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTeacherCode_KeyPress);
             // 
             // groupBox3
             // 

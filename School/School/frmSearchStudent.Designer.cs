@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtStudentName = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtStudentCode = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtStudentName = new System.Windows.Forms.TextBox();
-            this.txtStudentCode = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -50,6 +50,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "جستجو براساس نام دانش آموز";
             // 
+            // txtStudentName
+            // 
+            this.txtStudentName.Location = new System.Drawing.Point(15, 39);
+            this.txtStudentName.Name = "txtStudentName";
+            this.txtStudentName.Size = new System.Drawing.Size(311, 22);
+            this.txtStudentName.TabIndex = 0;
+            this.txtStudentName.TextChanged += new System.EventHandler(this.txtStudentName_TextChanged);
+            this.txtStudentName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStudentName_KeyPress);
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtStudentCode);
@@ -59,6 +68,15 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "جستجو بر اساس کد دانش آموز";
+            // 
+            // txtStudentCode
+            // 
+            this.txtStudentCode.Location = new System.Drawing.Point(22, 38);
+            this.txtStudentCode.Name = "txtStudentCode";
+            this.txtStudentCode.Size = new System.Drawing.Size(304, 22);
+            this.txtStudentCode.TabIndex = 0;
+            this.txtStudentCode.TextChanged += new System.EventHandler(this.txtStudentCode_TextChanged);
+            this.txtStudentCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStudentCode_KeyPress);
             // 
             // groupBox3
             // 
@@ -79,22 +97,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(783, 421);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // txtStudentName
-            // 
-            this.txtStudentName.Location = new System.Drawing.Point(15, 39);
-            this.txtStudentName.Name = "txtStudentName";
-            this.txtStudentName.Size = new System.Drawing.Size(311, 22);
-            this.txtStudentName.TabIndex = 0;
-            this.txtStudentName.TextChanged += new System.EventHandler(this.txtStudentName_TextChanged);
-            // 
-            // txtStudentCode
-            // 
-            this.txtStudentCode.Location = new System.Drawing.Point(22, 38);
-            this.txtStudentCode.Name = "txtStudentCode";
-            this.txtStudentCode.Size = new System.Drawing.Size(304, 22);
-            this.txtStudentCode.TabIndex = 0;
-            this.txtStudentCode.TextChanged += new System.EventHandler(this.txtStudentCode_TextChanged);
             // 
             // frmSearchStudent
             // 
