@@ -170,6 +170,7 @@
             this.ویرایشاطلاعاتToolStripMenuItem.Name = "ویرایشاطلاعاتToolStripMenuItem";
             this.ویرایشاطلاعاتToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
             this.ویرایشاطلاعاتToolStripMenuItem.Text = "ویرایش اطلاعات درس";
+            this.ویرایشاطلاعاتToolStripMenuItem.Click += new System.EventHandler(this.ویرایشاطلاعاتToolStripMenuItem_Click);
             // 
             // جستجوToolStripMenuItem
             // 

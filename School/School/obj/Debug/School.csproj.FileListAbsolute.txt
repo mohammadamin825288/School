@@ -52,3 +52,4 @@ E:\پروژه نیما\School\School\School\obj\Debug\School.csproj.GenerateReso
 E:\پروژه نیما\School\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
 E:\پروژه نیما\School\School\School\obj\Debug\School.exe
 E:\پروژه نیما\School\School\School\obj\Debug\School.pdb
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmSubjectEdit.resources

@@ -71,5 +71,11 @@ namespace School
             myfrmStudentEdit.ShowDialog();
 
         }
+
+        private void ویرایشاطلاعاتToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSubjectEdit mysubjectedit = new frmSubjectEdit();
+            mysubjectedit.ShowDialog();
+        }
     }
 }
