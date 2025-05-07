@@ -92,7 +92,7 @@ namespace School
                 mydelete.ExecuteNonQuery();
                 myconnection.Close();
 
-                MessageBox.Show("اطلاعات مشتری حذف گردید");
+                MessageBox.Show("اطلاعات کاربر حذف گردید");
                 txtUsername.Clear();
                 frmUser_Load(sender, e);
             }

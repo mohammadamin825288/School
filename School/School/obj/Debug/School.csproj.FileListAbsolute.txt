@@ -33,3 +33,22 @@ E:\مدرسه\School\School\School\obj\Debug\School.exe
 E:\مدرسه\School\School\School\obj\Debug\School.pdb
 E:\مدرسه\School\School\School\obj\Debug\School.frmUser.resources
 E:\مدرسه\School\School\School\obj\Debug\School.frmStudentEdit.resources
+E:\پروژه نیما\School\School\School\bin\Debug\School.exe.config
+E:\پروژه نیما\School\School\School\bin\Debug\School.exe
+E:\پروژه نیما\School\School\School\bin\Debug\School.pdb
+E:\پروژه نیما\School\School\School\obj\Debug\School.csprojAssemblyReference.cache
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmLogin.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmMain.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmSearchStudent.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmStudent.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmStudentEdit.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmSubject.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmTeacherEdit.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmTeachers.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmTeacherSearch.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.frmUser.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.Properties.Resources.resources
+E:\پروژه نیما\School\School\School\obj\Debug\School.csproj.GenerateResource.cache
+E:\پروژه نیما\School\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
+E:\پروژه نیما\School\School\School\obj\Debug\School.exe
+E:\پروژه نیما\School\School\School\obj\Debug\School.pdb
