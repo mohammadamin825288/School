@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,10 +47,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -84,7 +80,7 @@
               "RelativeDocumentMoniker": "School\\frmSubjectEdit.cs",
               "ToolTip": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmSubjectEdit.cs",
               "RelativeToolTip": "School\\frmSubjectEdit.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA9wCkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T12:14:12.646Z",
               "EditorCaption": ""
@@ -99,8 +95,7 @@
               "RelativeToolTip": "School\\frmTeacherEdit.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAwBAAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:32:24.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T10:32:24.455Z"
             },
             {
               "$type": "Document",
@@ -111,8 +106,7 @@
               "ToolTip": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmTeacherEdit.cs [Design]",
               "RelativeToolTip": "School\\frmTeacherEdit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:04:49.419Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T16:04:49.419Z"
             },
             {
               "$type": "Document",
