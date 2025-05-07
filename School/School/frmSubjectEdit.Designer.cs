@@ -114,7 +114,7 @@
             this.txtSubjectID.Location = new System.Drawing.Point(576, 44);
             this.txtSubjectID.Name = "txtSubjectID";
             this.txtSubjectID.Size = new System.Drawing.Size(130, 22);
-            this.txtSubjectID.TabIndex = 1;
+            this.txtSubjectID.TabIndex = 0;
             this.txtSubjectID.TextChanged += new System.EventHandler(this.txtSubjectID_TextChanged);
             // 
             // txtSubjectName
@@ -129,14 +129,14 @@
             this.txtTeacherID.Location = new System.Drawing.Point(201, 44);
             this.txtTeacherID.Name = "txtTeacherID";
             this.txtTeacherID.Size = new System.Drawing.Size(130, 22);
-            this.txtTeacherID.TabIndex = 1;
+            this.txtTeacherID.TabIndex = 2;
             // 
             // btnSubmit
             // 
             this.btnSubmit.Location = new System.Drawing.Point(357, 115);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(107, 32);
-            this.btnSubmit.TabIndex = 2;
+            this.btnSubmit.TabIndex = 3;
             this.btnSubmit.Text = "ویرایش";
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
@@ -153,8 +153,10 @@
             // 
             // frmSubjectEdit
             // 
+            this.AcceptButton = this.btnSubmit;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnDelete;
             this.ClientSize = new System.Drawing.Size(865, 475);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
