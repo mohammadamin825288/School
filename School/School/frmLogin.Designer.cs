@@ -44,7 +44,7 @@ namespace School
             this.txtUser.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.txtUser.Location = new System.Drawing.Point(130, 222);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(242, 26);
+            this.txtUser.Size = new System.Drawing.Size(242, 22);
             this.txtUser.TabIndex = 0;
             this.txtUser.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUser_KeyDown);
             // 
@@ -53,7 +53,7 @@ namespace School
             this.txtPass.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.txtPass.Location = new System.Drawing.Point(130, 276);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(242, 26);
+            this.txtPass.Size = new System.Drawing.Size(242, 22);
             this.txtPass.TabIndex = 1;
             // 
             // label2
@@ -64,7 +64,7 @@ namespace School
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(394, 279);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 23);
+            this.label2.Size = new System.Drawing.Size(58, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "رمز عبور";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -77,7 +77,7 @@ namespace School
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(394, 225);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 23);
+            this.label1.Size = new System.Drawing.Size(69, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "نام کاربری";
             this.label1.Click += new System.EventHandler(this.label2_Click);
@@ -97,9 +97,9 @@ namespace School
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(165, 313);
+            this.btnCancel.Location = new System.Drawing.Point(143, 313);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(132, 45);
+            this.btnCancel.Size = new System.Drawing.Size(139, 45);
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "انصراف";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -107,9 +107,9 @@ namespace School
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(325, 313);
+            this.btnOk.Location = new System.Drawing.Point(305, 313);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(114, 45);
+            this.btnOk.Size = new System.Drawing.Size(122, 45);
             this.btnOk.TabIndex = 2;
             this.btnOk.Text = "ورود";
             this.btnOk.UseVisualStyleBackColor = true;
@@ -118,12 +118,12 @@ namespace School
             // frmLogin
             // 
             this.AcceptButton = this.btnOk;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::School.Properties.Resources._1136017_فرم_ورود_وکتور_بر_روی_پس_زمینه_چوبی_قسمت_10;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(597, 514);
+            this.ClientSize = new System.Drawing.Size(565, 514);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.pictureBox1);
@@ -139,7 +139,6 @@ namespace School
             this.Name = "frmLogin";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ورود به نرم افزار";
             this.TransparencyKey = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

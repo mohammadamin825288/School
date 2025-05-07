@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ثبتاطلاعاتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ثبتدانشآموزToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,10 +46,6 @@
             this.اطلاعاتمعلمToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.اطلاعاتدانشآموزToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnLogout = new System.Windows.Forms.Button();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -58,11 +58,35 @@
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel4,
             this.toolStripStatusLabel2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 624);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 628);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(816, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(816, 22);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel3
+            // 
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(47, 17);
+            this.toolStripStatusLabel3.Text = "نام کاربر";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 17);
+            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            // 
+            // toolStripStatusLabel4
+            // 
+            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(31, 17);
+            this.toolStripStatusLabel4.Text = "تاریخ";
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(118, 17);
+            this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
             // 
             // menuStrip1
             // 
@@ -73,7 +97,7 @@
             this.جستجوToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(816, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(816, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -84,27 +108,34 @@
             this.ثبتاطلاعاتمعلمToolStripMenuItem,
             this.ثبتاطلاعتدرسToolStripMenuItem});
             this.ثبتاطلاعاتToolStripMenuItem.Name = "ثبتاطلاعاتToolStripMenuItem";
-            this.ثبتاطلاعاتToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
+            this.ثبتاطلاعاتToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.ثبتاطلاعاتToolStripMenuItem.Text = "ثبت اطلاعات ";
             // 
             // ثبتدانشآموزToolStripMenuItem
             // 
             this.ثبتدانشآموزToolStripMenuItem.Name = "ثبتدانشآموزToolStripMenuItem";
-            this.ثبتدانشآموزToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
+            this.ثبتدانشآموزToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+S";
+            this.ثبتدانشآموزToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.ثبتدانشآموزToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.ثبتدانشآموزToolStripMenuItem.Text = "ثبت اطلاعات دانش آموز";
             this.ثبتدانشآموزToolStripMenuItem.Click += new System.EventHandler(this.ثبتدانشآموزToolStripMenuItem_Click);
             // 
             // ثبتاطلاعاتمعلمToolStripMenuItem
             // 
             this.ثبتاطلاعاتمعلمToolStripMenuItem.Name = "ثبتاطلاعاتمعلمToolStripMenuItem";
-            this.ثبتاطلاعاتمعلمToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
+            this.ثبتاطلاعاتمعلمToolStripMenuItem.ShortcutKeyDisplayString = "Ctr+T";
+            this.ثبتاطلاعاتمعلمToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
+            this.ثبتاطلاعاتمعلمToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.ثبتاطلاعاتمعلمToolStripMenuItem.Text = "ثبت اطلاعات معلم";
             this.ثبتاطلاعاتمعلمToolStripMenuItem.Click += new System.EventHandler(this.ثبتاطلاعاتمعلمToolStripMenuItem_Click);
             // 
             // ثبتاطلاعتدرسToolStripMenuItem
             // 
             this.ثبتاطلاعتدرسToolStripMenuItem.Name = "ثبتاطلاعتدرسToolStripMenuItem";
-            this.ثبتاطلاعتدرسToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
+            this.ثبتاطلاعتدرسToolStripMenuItem.RightToLeftAutoMirrorImage = true;
+            this.ثبتاطلاعتدرسToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+C";
+            this.ثبتاطلاعتدرسToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.ثبتاطلاعتدرسToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.ثبتاطلاعتدرسToolStripMenuItem.Text = "ثبت اطلاعت درس";
             this.ثبتاطلاعتدرسToolStripMenuItem.Click += new System.EventHandler(this.ثبتاطلاعتدرسToolStripMenuItem_Click);
             // 
@@ -115,27 +146,29 @@
             this.ویرایشاطلاعاتدانشآموزToolStripMenuItem,
             this.ویرایشاطلاعاتToolStripMenuItem});
             this.ویرایشToolStripMenuItem.Name = "ویرایشToolStripMenuItem";
-            this.ویرایشToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
+            this.ویرایشToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.ویرایشToolStripMenuItem.Text = "ویرایش";
             // 
             // ویرایشاطلاعاتمعلمToolStripMenuItem
             // 
             this.ویرایشاطلاعاتمعلمToolStripMenuItem.Name = "ویرایشاطلاعاتمعلمToolStripMenuItem";
-            this.ویرایشاطلاعاتمعلمToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
+            this.ویرایشاطلاعاتمعلمToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
             this.ویرایشاطلاعاتمعلمToolStripMenuItem.Text = "ویرایش اطلاعات معلم";
             this.ویرایشاطلاعاتمعلمToolStripMenuItem.Click += new System.EventHandler(this.ویرایشاطلاعاتمعلمToolStripMenuItem_Click);
             // 
             // ویرایشاطلاعاتدانشآموزToolStripMenuItem
             // 
             this.ویرایشاطلاعاتدانشآموزToolStripMenuItem.Name = "ویرایشاطلاعاتدانشآموزToolStripMenuItem";
-            this.ویرایشاطلاعاتدانشآموزToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
+            this.ویرایشاطلاعاتدانشآموزToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
             this.ویرایشاطلاعاتدانشآموزToolStripMenuItem.Text = "ویرایش اطلاعات دانش آموز";
+            this.ویرایشاطلاعاتدانشآموزToolStripMenuItem.Click += new System.EventHandler(this.ویرایشاطلاعاتدانشآموزToolStripMenuItem_Click);
             // 
             // ویرایشاطلاعاتToolStripMenuItem
             // 
             this.ویرایشاطلاعاتToolStripMenuItem.Name = "ویرایشاطلاعاتToolStripMenuItem";
-            this.ویرایشاطلاعاتToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
+            this.ویرایشاطلاعاتToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
             this.ویرایشاطلاعاتToolStripMenuItem.Text = "ویرایش اطلاعات درس";
+            this.ویرایشاطلاعاتToolStripMenuItem.Click += new System.EventHandler(this.ویرایشاطلاعاتToolStripMenuItem_Click);
             // 
             // جستجوToolStripMenuItem
             // 
@@ -143,20 +176,20 @@
             this.اطلاعاتمعلمToolStripMenuItem1,
             this.اطلاعاتدانشآموزToolStripMenuItem});
             this.جستجوToolStripMenuItem.Name = "جستجوToolStripMenuItem";
-            this.جستجوToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
+            this.جستجوToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.جستجوToolStripMenuItem.Text = "جستجو";
             // 
             // اطلاعاتمعلمToolStripMenuItem1
             // 
             this.اطلاعاتمعلمToolStripMenuItem1.Name = "اطلاعاتمعلمToolStripMenuItem1";
-            this.اطلاعاتمعلمToolStripMenuItem1.Size = new System.Drawing.Size(215, 26);
+            this.اطلاعاتمعلمToolStripMenuItem1.Size = new System.Drawing.Size(169, 22);
             this.اطلاعاتمعلمToolStripMenuItem1.Text = "اطلاعات معلم";
             this.اطلاعاتمعلمToolStripMenuItem1.Click += new System.EventHandler(this.اطلاعاتمعلمToolStripMenuItem1_Click);
             // 
             // اطلاعاتدانشآموزToolStripMenuItem
             // 
             this.اطلاعاتدانشآموزToolStripMenuItem.Name = "اطلاعاتدانشآموزToolStripMenuItem";
-            this.اطلاعاتدانشآموزToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
+            this.اطلاعاتدانشآموزToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.اطلاعاتدانشآموزToolStripMenuItem.Text = "اطلاعات دانش آموز";
             this.اطلاعاتدانشآموزToolStripMenuItem.Click += new System.EventHandler(this.اطلاعاتدانشآموزToolStripMenuItem_Click);
             // 
@@ -175,33 +208,9 @@
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(151, 20);
-            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(151, 20);
-            this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
-            // 
-            // toolStripStatusLabel3
-            // 
-            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(60, 20);
-            this.toolStripStatusLabel3.Text = "نام کاربر";
-            // 
-            // toolStripStatusLabel4
-            // 
-            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(39, 20);
-            this.toolStripStatusLabel4.Text = "تاریخ";
-            // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::School.Properties.Resources.backgruondmain;
             this.ClientSize = new System.Drawing.Size(816, 650);
@@ -212,7 +221,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Text = "frmMain";
+            this.Text = "مدیریت مدرسه";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();

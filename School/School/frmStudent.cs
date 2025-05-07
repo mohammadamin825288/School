@@ -77,5 +77,10 @@ namespace School
         {
             this.Close();
         }
+
+        private void txtPhone_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

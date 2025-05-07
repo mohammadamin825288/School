@@ -124,5 +124,45 @@ namespace School
                 }
             }
         }
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtTeacherCode.Text))
+            {
+                MessageBox.Show("لطفاً کد معلم را وارد کنید", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtTeacherCode.Focus();
+                return;
+            }
+
+            DialogResult result = MessageBox.Show("آیا از حذف این معلم مطمئن هستید؟", "تأیید حذف", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                try
+                {
+                    myconnection.Open();
+                    SqlCommand mydeletecommand = new SqlCommand("DELETE FROM Teachers WHERE TeacherID = @TeacherID", myconnection);
+                    mydeletecommand.Parameters.AddWithValue("@TeacherID", Convert.ToInt32(txtTeacherCode.Text));
+                    int rowsAffected = mydeletecommand.ExecuteNonQuery();
+                    myconnection.Close();
+
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show("معلم با موفقیت حذف شد", "موفقیت", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        frmTeacherEdit_Load(sender, e); // به‌روزرسانی گرید
+                    }
+                    else
+                    {
+                        MessageBox.Show("معلمی با این کد یافت نشد", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("خطا در حذف: " + ex.Message, "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    myconnection.Close();
+                }
+            }
+        }
     }
 }

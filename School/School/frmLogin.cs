@@ -79,7 +79,7 @@ namespace School
                 catch (Exception)
                 {
 
-                    MessageBox.Show("نام کاربری نا درست است");
+                    MessageBox.Show("نام کاربری نادرست است");
                 }
             }
         }

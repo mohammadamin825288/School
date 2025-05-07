@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|c:\\users\\nimadaris\\source\\repos\\school\\school\\school\\frmsubjectedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|C:\\Users\\NimaDaris\\source\\repos\\School\\School\\school\\frmsubjectedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmsubjectedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|C:\\Users\\NimaDaris\\source\\repos\\School\\School\\school\\frmteacheredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmteacheredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|C:\\Users\\NimaDaris\\source\\repos\\School\\School\\school\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|C:\\Users\\NimaDaris\\source\\repos\\School\\School\\school\\frmsubjectedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|C:\\Users\\NimaDaris\\source\\repos\\School\\School\\school\\frmstudentedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmstudentedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|C:\\Users\\NimaDaris\\source\\repos\\School\\School\\school\\frmteacheredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|solutionrelative:school\\frmteacheredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2D7406-63A0-4669-815F-8E05DC644384}|School\\School.csproj|C:\\Users\\NimaDaris\\source\\repos\\School\\School\\school\\frmteacheredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,10 +51,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -62,7 +62,8 @@
               "RelativeToolTip": "School\\frmStudentEdit.cs",
               "ViewState": "AgIAAIYAAAAAAAAAAAAuwJMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:36:21.519Z"
+              "WhenOpened": "2025-05-07T10:36:21.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,7 +85,7 @@
               "RelativeDocumentMoniker": "School\\frmSubjectEdit.cs",
               "ToolTip": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmSubjectEdit.cs",
               "RelativeToolTip": "School\\frmSubjectEdit.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA9wCkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T12:14:12.646Z",
               "EditorCaption": ""
@@ -92,42 +93,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmMain.cs",
+              "RelativeDocumentMoniker": "School\\frmMain.cs",
+              "ToolTip": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmMain.cs [Design]",
+              "RelativeToolTip": "School\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T11:54:07.971Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frmTeacherEdit.cs",
               "DocumentMoniker": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmTeacherEdit.cs",
               "RelativeDocumentMoniker": "School\\frmTeacherEdit.cs",
               "ToolTip": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmTeacherEdit.cs",
               "RelativeToolTip": "School\\frmTeacherEdit.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBAAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:32:24.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T10:32:24.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "frmTeacherEdit.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmTeacherEdit.cs",
               "RelativeDocumentMoniker": "School\\frmTeacherEdit.cs",
               "ToolTip": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmTeacherEdit.cs [Design]",
               "RelativeToolTip": "School\\frmTeacherEdit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:04:49.419Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T16:04:49.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "frmStudentEdit.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmStudentEdit.cs",
               "RelativeDocumentMoniker": "School\\frmStudentEdit.cs",
               "ToolTip": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmStudentEdit.cs [Design]",
               "RelativeToolTip": "School\\frmStudentEdit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:04:39.775Z"
+              "WhenOpened": "2025-05-06T16:04:39.775Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "frmSubject.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NimaDaris\\source\\repos\\School\\School\\School\\frmSubject.cs",
               "RelativeDocumentMoniker": "School\\frmSubject.cs",
