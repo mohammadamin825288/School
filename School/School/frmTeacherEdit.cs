@@ -124,5 +124,46 @@ namespace School
                 }
             }
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtTeacherCode.Text))          
+            {
+                txtTeacherCode.Focus();
+            }
+            else if (mychekCode == false)
+            {
+                txtTeacherCode.Focus();
+                MessageBox.Show("کد معلم نامعتبر است");
+
+
+            }
+            else
+            {
+                try
+                {
+                    myconnection.Open();
+                    SqlCommand mydelete = new SqlCommand("delete from Teachers where TeacherID=@TeacherID", myconnection);
+                    mydelete.Parameters.AddWithValue("@TeacherID", Convert.ToInt32(txtTeacherCode.Text));
+                    mydelete.ExecuteNonQuery();
+                    myconnection.Close();
+
+                    MessageBox.Show("اطلاعات معلم حذف گردید");
+                    txtTeacherName.Clear();
+                    txtTeacherLname.Clear();
+                    txtSubjectCode.Clear();
+                    txtAddress.Clear();
+                    txtPhone.Clear();
+
+                    frmTeacherEdit_Load(sender, e);
+                }
+                catch (SqlException)
+                {
+
+                     MessageBox.Show("خطا در حذف اطلاعات");
+
+                }
+            }
+        }
     }
 }
