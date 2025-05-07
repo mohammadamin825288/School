@@ -109,5 +109,25 @@ namespace School.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap پس_زمینه_لاگ_اینpng {
+            get {
+                object obj = ResourceManager.GetObject("پس زمینه لاگ اینpng", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap عکس_لاگ_این {
+            get {
+                object obj = ResourceManager.GetObject("عکس لاگ این", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

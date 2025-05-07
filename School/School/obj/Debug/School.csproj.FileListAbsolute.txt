@@ -31,3 +31,4 @@ E:\مدرسه\School\School\School\obj\Debug\School.csproj.GenerateResource.cach
 E:\مدرسه\School\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
 E:\مدرسه\School\School\School\obj\Debug\School.exe
 E:\مدرسه\School\School\School\obj\Debug\School.pdb
+E:\مدرسه\School\School\School\obj\Debug\School.frmUser.resources

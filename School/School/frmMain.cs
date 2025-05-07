@@ -57,5 +57,12 @@ namespace School
             toolStripStatusLabel1.Text = ClassName.username;
             toolStripStatusLabel2.Text = DateTime.Now.ToString();
         }
+
+        private void ثبتاطلاعاتکاربرToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmUser myuser = new frmUser();
+            myuser.ShowDialog();
+
+        }
     }
 }

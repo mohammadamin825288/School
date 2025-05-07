@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ثبتاطلاعاتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ثبتدانشآموزToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,10 +46,7 @@
             this.اطلاعاتمعلمToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.اطلاعاتدانشآموزToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnLogout = new System.Windows.Forms.Button();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.ثبتاطلاعاتکاربرToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +65,30 @@
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
+            // toolStripStatusLabel3
+            // 
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(60, 20);
+            this.toolStripStatusLabel3.Text = "نام کاربر";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(151, 20);
+            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            // 
+            // toolStripStatusLabel4
+            // 
+            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(39, 20);
+            this.toolStripStatusLabel4.Text = "تاریخ";
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(151, 20);
+            this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
+            // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -73,7 +98,7 @@
             this.جستجوToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(816, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(816, 28);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -82,7 +107,8 @@
             this.ثبتاطلاعاتToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ثبتدانشآموزToolStripMenuItem,
             this.ثبتاطلاعاتمعلمToolStripMenuItem,
-            this.ثبتاطلاعتدرسToolStripMenuItem});
+            this.ثبتاطلاعتدرسToolStripMenuItem,
+            this.ثبتاطلاعاتکاربرToolStripMenuItem});
             this.ثبتاطلاعاتToolStripMenuItem.Name = "ثبتاطلاعاتToolStripMenuItem";
             this.ثبتاطلاعاتToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
             this.ثبتاطلاعاتToolStripMenuItem.Text = "ثبت اطلاعات ";
@@ -175,29 +201,12 @@
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
-            // toolStripStatusLabel1
+            // ثبتاطلاعاتکاربرToolStripMenuItem
             // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(151, 20);
-            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(151, 20);
-            this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
-            // 
-            // toolStripStatusLabel3
-            // 
-            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(60, 20);
-            this.toolStripStatusLabel3.Text = "نام کاربر";
-            // 
-            // toolStripStatusLabel4
-            // 
-            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(39, 20);
-            this.toolStripStatusLabel4.Text = "تاریخ";
+            this.ثبتاطلاعاتکاربرToolStripMenuItem.Name = "ثبتاطلاعاتکاربرToolStripMenuItem";
+            this.ثبتاطلاعاتکاربرToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
+            this.ثبتاطلاعاتکاربرToolStripMenuItem.Text = "ثبت اطلاعات کاربر";
+            this.ثبتاطلاعاتکاربرToolStripMenuItem.Click += new System.EventHandler(this.ثبتاطلاعاتکاربرToolStripMenuItem_Click);
             // 
             // frmMain
             // 
@@ -243,5 +252,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
+        private System.Windows.Forms.ToolStripMenuItem ثبتاطلاعاتکاربرToolStripMenuItem;
     }
 }
