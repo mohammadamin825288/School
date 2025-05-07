@@ -38,5 +38,123 @@ namespace School
             myda.Fill(mydt);
             dataGridView1.DataSource = mydt;
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtStudentID.Text))
+            {
+                txtStudentID.Focus();
+            }
+            else if (mychekCode == false)
+            {
+                txtStudentID.Focus();
+                MessageBox.Show("کد دانش آموز نامعتبر است");
+
+
+            }
+            else
+            {
+                try
+                {
+                    myconnection.Open();
+                    SqlCommand mydelete = new SqlCommand("delete from Students where StudentID=@StudentID", myconnection);
+                    mydelete.Parameters.AddWithValue("@StudentID", Convert.ToInt32(txtStudentID.Text));
+                    mydelete.ExecuteNonQuery();
+                    myconnection.Close();
+
+                    MessageBox.Show("اطلاعات دانش آموز حذف گردید");
+                    txtStudentFname.Clear();
+                    txtStudentLname.Clear();
+                    txtStudentPhone.Clear();
+                    txtStudentAddress.Clear();
+                    txtStudentClassID.Clear();
+
+                    frmStudentEdit_Load(sender, e);
+                }
+                catch (SqlException)
+                {
+
+                    MessageBox.Show("خطا در حذف اطلاعات");
+
+                }
+            }
+        }
+
+        private void txtStudentID_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlDataAdapter myda = new SqlDataAdapter("SELECT   StudentFname, StudentLname , StudentClassID ,StudentPhone,StudentAddress  from Students" +
+              " where StudentID='" + Convert.ToInt32(txtStudentID.Text) + "'", myconnection);
+                DataTable mydt = new DataTable();
+                myda.Fill(mydt);
+
+                txtStudentFname.Text = mydt.Rows[0].ItemArray[0].ToString();
+                txtStudentLname.Text = mydt.Rows[0].ItemArray[1].ToString();
+                txtStudentClassID.Text = mydt.Rows[0].ItemArray[2].ToString();
+                txtStudentPhone.Text = mydt.Rows[0].ItemArray[3].ToString();
+                txtStudentAddress.Text = mydt.Rows[0].ItemArray[3].ToString();
+                mychekCode = true;
+            }
+            catch (Exception)
+            {
+                txtStudentFname.Clear();
+                txtStudentLname.Clear();
+                txtStudentClassID.Clear();
+                txtStudentPhone.Clear();
+                txtStudentAddress.Clear();
+                mychekCode = false;
+
+            }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (!mychekCode)
+            {
+                MessageBox.Show("کد دانش‌آموز نامعتبر است", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtStudentID.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtStudentFname.Text) ||
+                string.IsNullOrWhiteSpace(txtStudentLname.Text) ||
+                string.IsNullOrWhiteSpace(txtStudentPhone.Text) ||
+                string.IsNullOrWhiteSpace(txtStudentAddress.Text))
+            {
+                MessageBox.Show("لطفاً تمام اطلاعات را وارد کنید", "هشدار", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                myconnection.Open();
+                SqlCommand myupdatecommand = new SqlCommand(@"UPDATE Students 
+            SET StudentFname = @StudentFname, 
+                StudentLname = @StudentLname, 
+                StudentClassID = @StudentClassID, 
+                StudentAddress = @StudentAddress, 
+                StudentPhone = @StudentPhone 
+            WHERE StudentID = @StudentID", myconnection);
+
+                myupdatecommand.Parameters.AddWithValue("@StudentFname", txtStudentFname.Text);
+                myupdatecommand.Parameters.AddWithValue("@StudentLname", txtStudentLname.Text);
+                myupdatecommand.Parameters.AddWithValue("@StudentClassID", txtStudentClassID.Text);
+                myupdatecommand.Parameters.AddWithValue("@StudentAddress", txtStudentAddress.Text);
+                myupdatecommand.Parameters.AddWithValue("@StudentPhone", txtStudentPhone.Text);
+                myupdatecommand.Parameters.AddWithValue("@StudentID", Convert.ToInt32(txtStudentID.Text));
+                myupdatecommand.ExecuteNonQuery();
+                MessageBox.Show("اطلاعات با موفقیت ویرایش شد", "موفقیت", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                frmStudentEdit_Load(sender, e);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("خطا: " + ex.Message);
+            }
+            finally
+            {
+                myconnection.Close();
+            }
+        }
     }
 }

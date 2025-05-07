@@ -231,7 +231,7 @@
             this.btnSubmit.Location = new System.Drawing.Point(493, 270);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(105, 37);
-            this.btnSubmit.TabIndex = 2;
+            this.btnSubmit.TabIndex = 6;
             this.btnSubmit.Text = "ثبت";
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
@@ -295,7 +295,7 @@
             this.txtPhone.Location = new System.Drawing.Point(127, 187);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(181, 22);
-            this.txtPhone.TabIndex = 0;
+            this.txtPhone.TabIndex = 5;
             // 
             // txtAddress
             // 
@@ -303,21 +303,21 @@
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(181, 73);
-            this.txtAddress.TabIndex = 0;
+            this.txtAddress.TabIndex = 4;
             // 
             // txtSubjectCode
             // 
             this.txtSubjectCode.Location = new System.Drawing.Point(456, 195);
             this.txtSubjectCode.Name = "txtSubjectCode";
             this.txtSubjectCode.Size = new System.Drawing.Size(181, 22);
-            this.txtSubjectCode.TabIndex = 0;
+            this.txtSubjectCode.TabIndex = 3;
             // 
             // txtTeacherLname
             // 
             this.txtTeacherLname.Location = new System.Drawing.Point(456, 139);
             this.txtTeacherLname.Name = "txtTeacherLname";
             this.txtTeacherLname.Size = new System.Drawing.Size(181, 22);
-            this.txtTeacherLname.TabIndex = 0;
+            this.txtTeacherLname.TabIndex = 2;
             // 
             // txtTeacherCode
             // 
@@ -333,7 +333,7 @@
             this.txtTeacherName.Location = new System.Drawing.Point(456, 97);
             this.txtTeacherName.Name = "txtTeacherName";
             this.txtTeacherName.Size = new System.Drawing.Size(181, 22);
-            this.txtTeacherName.TabIndex = 0;
+            this.txtTeacherName.TabIndex = 1;
             // 
             // frmTeacherEdit
             // 

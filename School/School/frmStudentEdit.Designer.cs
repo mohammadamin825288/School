@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtStudentID = new System.Windows.Forms.TextBox();
-            this.txtStudentLname = new System.Windows.Forms.TextBox();
-            this.txtStudentClassID = new System.Windows.Forms.TextBox();
-            this.txtStudentFname = new System.Windows.Forms.TextBox();
-            this.txtStudentAddress = new System.Windows.Forms.TextBox();
-            this.txtStudentPhone = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtStudentAddress = new System.Windows.Forms.TextBox();
+            this.txtStudentFname = new System.Windows.Forms.TextBox();
+            this.txtStudentPhone = new System.Windows.Forms.TextBox();
+            this.txtStudentClassID = new System.Windows.Forms.TextBox();
+            this.txtStudentLname = new System.Windows.Forms.TextBox();
+            this.txtStudentID = new System.Windows.Forms.TextBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -77,104 +77,25 @@
             this.groupBox1.Text = "ویرایش اطلاعات دانش آموز";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // groupBox2
+            // btnSave
             // 
-            this.groupBox2.Controls.Add(this.dataGridView1);
-            this.groupBox2.Location = new System.Drawing.Point(10, 301);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(861, 367);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "فهرست دانش آموز";
+            this.btnSave.Location = new System.Drawing.Point(210, 223);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(93, 38);
+            this.btnSave.TabIndex = 2;
+            this.btnSave.Text = "ثبت";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // txtStudentID
+            // btnDelete
             // 
-            this.txtStudentID.BackColor = System.Drawing.SystemColors.Info;
-            this.txtStudentID.Location = new System.Drawing.Point(571, 38);
-            this.txtStudentID.Name = "txtStudentID";
-            this.txtStudentID.Size = new System.Drawing.Size(176, 22);
-            this.txtStudentID.TabIndex = 0;
-            // 
-            // txtStudentLname
-            // 
-            this.txtStudentLname.Location = new System.Drawing.Point(517, 119);
-            this.txtStudentLname.Name = "txtStudentLname";
-            this.txtStudentLname.Size = new System.Drawing.Size(230, 22);
-            this.txtStudentLname.TabIndex = 0;
-            // 
-            // txtStudentClassID
-            // 
-            this.txtStudentClassID.Location = new System.Drawing.Point(517, 168);
-            this.txtStudentClassID.Name = "txtStudentClassID";
-            this.txtStudentClassID.Size = new System.Drawing.Size(230, 22);
-            this.txtStudentClassID.TabIndex = 0;
-            // 
-            // txtStudentFname
-            // 
-            this.txtStudentFname.Location = new System.Drawing.Point(517, 82);
-            this.txtStudentFname.Name = "txtStudentFname";
-            this.txtStudentFname.Size = new System.Drawing.Size(230, 22);
-            this.txtStudentFname.TabIndex = 0;
-            // 
-            // txtStudentAddress
-            // 
-            this.txtStudentAddress.Location = new System.Drawing.Point(59, 124);
-            this.txtStudentAddress.Multiline = true;
-            this.txtStudentAddress.Name = "txtStudentAddress";
-            this.txtStudentAddress.Size = new System.Drawing.Size(220, 66);
-            this.txtStudentAddress.TabIndex = 0;
-            // 
-            // txtStudentPhone
-            // 
-            this.txtStudentPhone.Location = new System.Drawing.Point(59, 55);
-            this.txtStudentPhone.Name = "txtStudentPhone";
-            this.txtStudentPhone.Size = new System.Drawing.Size(220, 22);
-            this.txtStudentPhone.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(323, 60);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "شماره";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(323, 127);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "آدرس";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(782, 43);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 17);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "کد دانش آموز";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(782, 87);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 17);
-            this.label4.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(782, 122);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 17);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "نام خانوادگی";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.btnDelete.Location = new System.Drawing.Point(59, 223);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(93, 38);
+            this.btnDelete.TabIndex = 2;
+            this.btnDelete.Text = "حذف";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // label6
             // 
@@ -195,23 +116,105 @@
             this.label7.Text = "نام";
             this.label7.Click += new System.EventHandler(this.label5_Click);
             // 
-            // btnDelete
+            // label5
             // 
-            this.btnDelete.Location = new System.Drawing.Point(59, 223);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(93, 38);
-            this.btnDelete.TabIndex = 2;
-            this.btnDelete.Text = "حذف";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(782, 122);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 17);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "نام خانوادگی";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // btnSave
+            // label4
             // 
-            this.btnSave.Location = new System.Drawing.Point(210, 223);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(93, 38);
-            this.btnSave.TabIndex = 2;
-            this.btnSave.Text = "ثبت";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(782, 87);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(0, 17);
+            this.label4.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(782, 43);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(71, 17);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "کد دانش آموز";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(323, 127);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 17);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "آدرس";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(323, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 17);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "شماره";
+            // 
+            // txtStudentAddress
+            // 
+            this.txtStudentAddress.Location = new System.Drawing.Point(59, 124);
+            this.txtStudentAddress.Multiline = true;
+            this.txtStudentAddress.Name = "txtStudentAddress";
+            this.txtStudentAddress.Size = new System.Drawing.Size(220, 66);
+            this.txtStudentAddress.TabIndex = 0;
+            // 
+            // txtStudentFname
+            // 
+            this.txtStudentFname.Location = new System.Drawing.Point(517, 82);
+            this.txtStudentFname.Name = "txtStudentFname";
+            this.txtStudentFname.Size = new System.Drawing.Size(230, 22);
+            this.txtStudentFname.TabIndex = 0;
+            // 
+            // txtStudentPhone
+            // 
+            this.txtStudentPhone.Location = new System.Drawing.Point(59, 55);
+            this.txtStudentPhone.Name = "txtStudentPhone";
+            this.txtStudentPhone.Size = new System.Drawing.Size(220, 22);
+            this.txtStudentPhone.TabIndex = 0;
+            // 
+            // txtStudentClassID
+            // 
+            this.txtStudentClassID.Location = new System.Drawing.Point(517, 168);
+            this.txtStudentClassID.Name = "txtStudentClassID";
+            this.txtStudentClassID.Size = new System.Drawing.Size(230, 22);
+            this.txtStudentClassID.TabIndex = 0;
+            // 
+            // txtStudentLname
+            // 
+            this.txtStudentLname.Location = new System.Drawing.Point(517, 119);
+            this.txtStudentLname.Name = "txtStudentLname";
+            this.txtStudentLname.Size = new System.Drawing.Size(230, 22);
+            this.txtStudentLname.TabIndex = 0;
+            // 
+            // txtStudentID
+            // 
+            this.txtStudentID.BackColor = System.Drawing.SystemColors.Info;
+            this.txtStudentID.Location = new System.Drawing.Point(571, 38);
+            this.txtStudentID.Name = "txtStudentID";
+            this.txtStudentID.Size = new System.Drawing.Size(176, 22);
+            this.txtStudentID.TabIndex = 0;
+            this.txtStudentID.TextChanged += new System.EventHandler(this.txtStudentID_TextChanged);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Location = new System.Drawing.Point(10, 301);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(861, 367);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "فهرست دانش آموز";
             // 
             // dataGridView1
             // 
