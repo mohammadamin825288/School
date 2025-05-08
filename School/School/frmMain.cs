@@ -55,7 +55,9 @@ namespace School
         private void frmMain_Load(object sender, EventArgs e)
         {
             toolStripStatusLabel1.Text = ClassName.username;
-            toolStripStatusLabel2.Text = DateTime.Now.ToString();
+            toolStripStatusLabel2.Text = ShamsiDate.ConvertToShamsi(DateTime.Now);
+            toolStripStatusLabel5.Text = DateTime.Now.ToString("hh:mm:ss tt");
+
         }
 
         private void ثبتاطلاعاتکاربرToolStripMenuItem_Click(object sender, EventArgs e)
